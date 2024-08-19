@@ -1,1 +1,36 @@
 https://docs.google.com/document/d/1a7-WaPY68gjqnWCU_5hOnt-vZVPSllvDC4Ihl-2mNUw/edit?usp=drivesdk
+
+
+Devops Real time Projects:
+Terraform Project
+
+1.  Terraform Project with Aws resources.
+
+Q. Create AWS EC2 instance by supplying arguments with variables and use data source to grab the AMI (Latest ami of amazon linux) from the aws. Access the html file in the shell scripting and run  it( add data file to access shell script) and also add security groups with inbound rules as http?
+A. 
+
+Q. Create S3 buckets with policy and enable the static website host and enable versioning.
+
+Q. Create VPC using modules.
+    Add 2 availability zone and 2 public and private subnets and create database subnets
+    Attach internet and nat gateway and also use tfvars file for giving the variable?
+
+Q. Create RDS and use null resources and also use locals and use environment variables? 
+
+
+
+Docker
+
+Q. Create dockerfile 
+     Create base image and non root user and different html file has to run on the container, add docker volume and bind mount and push to docker hub.
+
+Q. Create 2 containers, 1 is mysql and 2nd is phpmyadmin and they both should be on the same network (Docker networks: bridge, host, null, macvaln, ipvlan and overlay)?
+Create docker compose with the help of depends on the function (1 create PHP and followed by mysql) and use restart policies and others?
+
+
+SonarQube
+
+SonarQube architecture
+Set the some rule on java code.
+Generate the sonarqube reports
+User sonar scanner plugin 
